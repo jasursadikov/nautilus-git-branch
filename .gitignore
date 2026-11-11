@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+wheels/
+
+# makepkg output
+/src/nautilus-git-branch-*/
+/pkg/
+/*.pkg.tar.*
+/*.src.tar.*
+/*.log
+/*.whl
+
+# Local workspace metadata
+/.agents/
+/.codex/
+/.aws/

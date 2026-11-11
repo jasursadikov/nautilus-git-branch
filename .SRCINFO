@@ -1,0 +1,20 @@
+pkgbase = nautilus-git-branch
+	pkgdesc = Dim Git branch and tag badges beside Nautilus repository folders
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/jasursadikov/nautilus-git-branch
+	install = nautilus-git-branch.install
+	arch = any
+	license = MIT
+	depends = nautilus
+	depends = nautilus-python
+	depends = python-pygit2
+	optdepends = ttf-nerd-fonts-symbols: branch, tag and commit icons
+	source = nautilus-git-branch-1.0.0.py::https://raw.githubusercontent.com/jasursadikov/nautilus-git-branch/v1.0.0/src/nautilus-git-branch/nautilus_git_branch.py
+	source = nautilus-git-branch-1.0.0-README.md::https://raw.githubusercontent.com/jasursadikov/nautilus-git-branch/v1.0.0/README.md
+	source = nautilus-git-branch-1.0.0-LICENSE::https://raw.githubusercontent.com/jasursadikov/nautilus-git-branch/v1.0.0/LICENSE
+	sha256sums = b093d614657b66a28b7f86075b67560a440be1d7f3cf083cdb541753381545a1
+	sha256sums = 94d5268da98d54931e906936fcdb6a18ffc955eff1c9924d705691464e9a1e14
+	sha256sums = b11a0f75f04e23df3aa63146b783a01a7b9b74345bcb758285bc3b1043f8cad0
+
+pkgname = nautilus-git-branch

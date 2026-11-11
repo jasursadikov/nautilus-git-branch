@@ -1,0 +1,10 @@
+post_install() {
+    printf '%s\n' \
+        'Nautilus Git Branch: run "nautilus -q", then reopen Files.' \
+        'Badges appear in list view (Ctrl+2), at the minimum icon size.' \
+        'Remove any manually installed nautilus_git_branch.py from your user extensions directory to avoid shadowing this package.'
+}
+
+post_upgrade() {
+    post_install
+}
